@@ -4,6 +4,7 @@ import StudentUser from "../StudentUser/StudentUser";
 import SideBar from "../Sidebar/SideBar";
 import TeacherUser from "../TeacherUser/TeacherUser";
 import { useState } from "react";
+import Logo_icon from "../../assets/logo.png";
 
 const Login = () => {
   const [userstudent, setUserStudent] = useState(true);
@@ -34,6 +35,9 @@ const Login = () => {
         <SideBar />
         <div className="login-container">
           <div className="login-heading">Enter Login Credential</div>
+          <div className="login-icon">
+            <img src={Logo_icon} alt="logo-mbm" className="logo-mbm" />
+          </div>
           <div className="buttons">
             <div className="box-container">
               <div className="button-container">
