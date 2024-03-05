@@ -12,11 +12,26 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/student/dashboard" element={<StudentDashboard />} />
-          <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
-          <Route path="/teacher/mark-Attendence" element={<Attendence />} />
+          <Route
+            path="/MBM-Attendance-React-Application/"
+            element={<LoginPage />}
+          />
+          <Route
+            path="/MBM-Attendance-React-Application/login"
+            element={<LoginPage />}
+          />
+          <Route
+            path="/MBM-Attendance-React-Application/student/dashboard"
+            element={<StudentDashboard />}
+          />
+          <Route
+            path="/MBM-Attendance-React-Application/teacher/dashboard"
+            element={<TeacherDashboard />}
+          />
+          <Route
+            path="/MBM-Attendance-React-Application/teacher/mark-Attendence"
+            element={<Attendence />}
+          />
         </Routes>
       </BrowserRouter>
     </>
