@@ -12,7 +12,10 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<LoginPage />} />
+          <Route
+            path="/MBM-Attendance-React-Application/"
+            element={<LoginPage />}
+          />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/student/dashboard" element={<StudentDashboard />} />
           <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
