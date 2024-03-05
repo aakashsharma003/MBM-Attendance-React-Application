@@ -34,6 +34,18 @@ const Login = () => {
         <SideBar />
         <div className="login-container">
           <div className="login-heading">Enter Login Credential</div>
+          <div className="buttons">
+            <div className="box-container">
+              <div className="button-container">
+                <div onClick={switchUsertoStudent} className="s-btn btn">
+                  Student
+                </div>
+                <div onClick={switchUsertoTeacher} className="t-btn btn">
+                  Teacher
+                </div>
+              </div>
+            </div>
+          </div>
           {userteacher && (
             <div className="render-Teacherbox">
               <TeacherUser

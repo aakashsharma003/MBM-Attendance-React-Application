@@ -22,6 +22,8 @@
   display: flex;
   width: 80vw;
   height: 70vh;
+  border-radius: 6px;
+  box-shadow: 2px 3px 17px 1px;
 }
 
 .login-container {
@@ -33,6 +35,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   color: var(--secondary-color);
+  border-radius: 0 6px 6px 0;
 }
 .button-container {
   display: flex;
@@ -42,7 +45,6 @@
 .box-container {
   display: flex;
   flex-direction: column;
-  align-items: start;
   height: 80%;
   width: 100%;
 }
@@ -113,4 +115,34 @@
 .render-Studentbox,
 .render-Teacherbox {
   flex-grow: 1;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+}
+.s-btn,
+.t-btn {
+  cursor: pointer;
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+.s-btn {
+  border-top-left-radius: 1vh;
+}
+.t-btn {
+  border-top-right-radius: 1vh;
+}
+.login-heading {
+  color: var(--secondary-color);
+  width: 100%;
+  text-align: center;
 }

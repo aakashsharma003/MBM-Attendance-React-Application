@@ -11,7 +11,9 @@ const SideBar = () => {
         </div>
         <div className="heading">
           <div className="first-heading">
-            <span style={{ color: "#cc0c1e" }}>M.B.M</span> UNIVERSITY
+            <pre>
+              <span style={{ color: "#cc0c1e" }}>M.B.M</span> UNIVERSITY
+            </pre>
           </div>
           <div className="second-heading">
             State University Govt. of Rajasthan

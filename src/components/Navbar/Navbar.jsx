@@ -8,9 +8,6 @@ export const Navbar = () => {
         <div className="nav-container">
           <div className="logo-box list-items">
             <img className="nav-logo-icon" src={Logo_icon} alt="small-logo" />
-            <NavLink to="/" className="items">
-              Attendee
-            </NavLink>
           </div>
 
           <nav className="navbar">

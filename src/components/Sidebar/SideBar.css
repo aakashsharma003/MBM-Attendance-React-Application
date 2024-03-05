@@ -18,7 +18,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5% 10%;
+  border-radius: 8px 0 0 8px;
 }
 .heading,
 .para {
@@ -28,10 +28,20 @@
   text-align: center;
 }
 .heading {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .first-heading {
-  font-size: 4vh;
+  font-size: 3vh;
+}
+.first-heading,
+.second-heading,
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
   width: auto;
@@ -41,6 +51,6 @@
   justify-content: center;
 }
 .logo-icon {
-  width: 75%;
+  width: 90%;
   height: auto;
 }

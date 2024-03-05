@@ -14,50 +14,22 @@
   justify-content: space-between;
   color: var(--secondary-color);
 }
-.button-container {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
+
+.login-btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+  width: 100%;
+  padding: 3%;
 }
-.box-container {
+
+.lower-box {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  height: 80%;
-  width: 100%;
+  justify-content: space-evenly;
 }
-.login-btn {
-  border: 1px solid var(--temporary-color);
-  text-decoration: none;
-  transition: all;
-}
-.login-btn:hover {
-  background: rgb(28, 46, 80);
-  transition: background 1s ease-in-out;
-}
-.btn {
-  cursor: pointer;
-}
-.s-btn,
-.t-btn {
-  cursor: pointer;
-  font-size: 3vh;
-  padding: 1vh 1vw;
-  border: 1px solid rgb(240, 227, 227);
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-}
-.s-btn {
-  border-top-left-radius: 1vh;
-}
-.t-btn {
-  border-top-right-radius: 1vh;
-}
-.login-heading {
-  color: var(--secondary-color);
-  width: 100%;
-  text-align: center;
-}
+
 .inputs {
   width: 100%;
   display: flex;
@@ -73,6 +45,7 @@
 #password {
   font-size: 3vh;
   padding: 1vh 1vw;
+  border: 1px solid grey;
 }
 #username {
   margin-top: 0;
@@ -81,13 +54,29 @@
 #password {
   margin: 2vh 0;
 }
-.buttons {
-  display: flex;
-  align-items: flex-start;
-}
+
 .lower-box {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.login-btn {
+  border: 1px solid var(--temporary-color);
+  text-decoration: none;
+  transition: all;
+}
+.login-btn:hover {
+  background: rgb(28, 46, 80);
+  transition: background 1s ease-in-out;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.login-btn,
+input {
+  border-radius: 6px;
 }
