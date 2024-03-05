@@ -33,9 +33,7 @@ const Login = () => {
       <div className="s-box">
         <SideBar />
         <div className="login-container">
-          <div className="login-heading">
-            <h1>Enter Login Credential</h1>
-          </div>
+          <div className="login-heading">Enter Login Credential</div>
           {userteacher && (
             <div className="render-Teacherbox">
               <TeacherUser

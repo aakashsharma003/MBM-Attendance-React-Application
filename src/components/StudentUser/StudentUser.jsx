@@ -36,11 +36,9 @@ const StudentUser = (props) => {
           </div>
         </div>
 
-        <div className="login-btn btn">
-          <NavLink to="/student/dashboard" className="items">
-            Login
-          </NavLink>
-        </div>
+        <NavLink to="/student/dashboard" className="login-btn btn">
+          Login
+        </NavLink>
       </div>
     </>
   );

@@ -42,11 +42,11 @@
   font-size: 3vh;
   padding: 1vh 1vw;
   border: 1px solid rgb(240, 227, 227);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 .s-btn {
   border-top-left-radius: 1vh;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
 }
 .t-btn {
   border-top-right-radius: 1vh;
@@ -71,6 +71,7 @@
 #password {
   font-size: 3vh;
   padding: 1vh 1vw;
+  border: 1px solid grey;
 }
 #username {
   margin-top: 0;
@@ -89,8 +90,18 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+.login-btn {
+  border: 1px solid var(--temporary-color);
+  text-decoration: none;
+  transition: all;
+}
 .login-btn:hover {
-  background: var(--primary-color);
-  color: var(--temporary-color);
-  border: 2px solid var(--temporary-color);
+  background: rgb(28, 46, 80);
+  transition: background 1s ease-in-out;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }

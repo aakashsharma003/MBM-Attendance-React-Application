@@ -1,9 +1,9 @@
 import { Navbar } from "../components/Navbar/Navbar";
-
+import DashBoard from "../components/StudentDashboard/StudentDashBoard";
 export const StudentDashboard = () => {
   return (
     <>
-      <h1>hello to Student Dashboard</h1>
+      <DashBoard />
     </>
   );
 };

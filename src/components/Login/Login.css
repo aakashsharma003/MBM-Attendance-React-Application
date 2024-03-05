@@ -75,6 +75,7 @@
   color: var(--secondary-color);
   width: 100%;
   text-align: center;
+  font-size: 4vh;
 }
 .inputs {
   width: 100%;
@@ -108,4 +109,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.render-Studentbox,
+.render-Teacherbox {
+  flex-grow: 1;
 }

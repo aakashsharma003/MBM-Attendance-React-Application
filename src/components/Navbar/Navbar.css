@@ -62,8 +62,8 @@ ul {
   align-items: center;
   height: 4vh;
 }
-.logo-icon {
-  width: 50%;
-  height: 100%;
+.nav-logo-icon {
+  width: 25%;
+  height: auto;
   margin-right: 1vw;
 }

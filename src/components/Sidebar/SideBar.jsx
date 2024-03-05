@@ -7,13 +7,15 @@ const SideBar = () => {
     <>
       <div className="sidebar-container">
         <div className="logo">
-          <img src={Logo_icon} alt="" />
+          <img className="logo-icon" src={Logo_icon} alt="" />
         </div>
         <div className="heading">
-          <h1>
+          <div className="first-heading">
             <span style={{ color: "#cc0c1e" }}>M.B.M</span> UNIVERSITY
-          </h1>
-          <h5>State University Govt. of Rajasthan</h5>
+          </div>
+          <div className="second-heading">
+            State University Govt. of Rajasthan
+          </div>
         </div>
         <div className="para">
           A Real-time interactive attendance web-application.

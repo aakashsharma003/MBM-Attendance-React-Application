@@ -30,3 +30,17 @@
 .heading {
   text-align: center;
 }
+.first-heading {
+  font-size: 4vh;
+}
+.logo {
+  width: auto;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-icon {
+  width: 75%;
+  height: auto;
+}
