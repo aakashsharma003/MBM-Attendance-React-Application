@@ -16,10 +16,7 @@ const App = () => {
             path="MBM-Attendance-React-Application/"
             element={<LoginPage />}
           />
-          <Route
-            path="MBM-Attendance-React-Application/login"
-            element={<LoginPage />}
-          />
+          <Route path="/login" element={<LoginPage />} />
           <Route path="/student/dashboard" element={<StudentDashboard />} />
           <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
           <Route path="/teacher/mark-Attendence" element={<Attendence />} />
