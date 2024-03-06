@@ -24,11 +24,9 @@ const TeacherUser = (props) => {
           </div>
         </div>
 
-        <div className="login-btn btn">
-          <NavLink to="/teacher/dashboard" className="items">
-            Login
-          </NavLink>
-        </div>
+        <NavLink to="/teacher/dashboard" className="login-btn btn">
+          Login
+        </NavLink>
       </div>
     </>
   );

@@ -6,8 +6,8 @@ const SideBar = () => {
   return (
     <>
       <div className="sidebar-container">
-        <div className="logo">
-          <img className="logo-icon" src={Logo_icon} alt="" />
+        <div className="sidebar-logo">
+          <img className="sidebar-logo-icon" src={Logo_icon} alt="" />
         </div>
         <div className="heading">
           <div className="first-heading">

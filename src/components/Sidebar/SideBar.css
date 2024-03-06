@@ -34,7 +34,7 @@
   align-items: center;
 }
 .first-heading {
-  font-size: 3vh;
+  font-size: 4vh;
 }
 .first-heading,
 .second-heading,
@@ -43,14 +43,14 @@
   justify-content: center;
   align-items: center;
 }
-.logo {
+.sidebar-logo {
   width: auto;
   height: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.logo-icon {
+.sidebar-logo-icon {
   width: 90%;
   height: auto;
 }

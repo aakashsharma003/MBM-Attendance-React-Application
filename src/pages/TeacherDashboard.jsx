@@ -1,7 +1,8 @@
+import Dashboard from "../components/TeacherDashboard/TeacherDashboard";
 export const TeacherDashboard = () => {
   return (
     <>
-      <h1>hello from TeacherDashboard</h1>
+      <Dashboard />
     </>
   );
 };

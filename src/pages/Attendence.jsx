@@ -1,7 +1,9 @@
+import Attend from "../components/Attendence/Attendence";
+
 export const Attendence = () => {
   return (
     <>
-      <h1>Hello from Attendence Page</h1>
+      <Attend />
     </>
   );
 };
