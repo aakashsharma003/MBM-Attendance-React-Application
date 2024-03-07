@@ -7,6 +7,7 @@ import "swiper/css/effect-cards";
 
 // import required modules
 import { EffectCards } from "swiper/modules";
+import { images } from "../../Constants";
 import "./Attendence.css";
 
 const Attendence = () => {
@@ -20,25 +21,25 @@ const Attendence = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src="images/img2.jpg" alt="" />
+            <img src={images.img1} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/img3.jpg" alt="" />
+            <img src={images.img2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/img4.jpg" alt="" />
+            <img src={images.img3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/img5.jpg" alt="" />
+            <img src={images.img4} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/img6.jpg" alt="" />
+            <img src={images.img5} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/img7.jpg" alt="" />
+            <img src={images.img6} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/img11.jpg" alt="" />
+            <img src={images.img7} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
