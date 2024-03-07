@@ -9,6 +9,8 @@ import img8 from "../assets/img8.jpg";
 import img9 from "../assets/img9.jpg";
 import img10 from "../assets/img10.jpg";
 import img11 from "../assets/img11.png";
+import Completed from "../assets/checked.png";
+import Pending from "../assets/wall-clock.png";
 
 export default {
   img1,
@@ -22,4 +24,6 @@ export default {
   img9,
   img10,
   img11,
+  Completed,
+  Pending,
 };
