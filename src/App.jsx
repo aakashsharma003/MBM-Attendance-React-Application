@@ -3,6 +3,7 @@ import { LoginPage } from "./pages/LoginPage";
 import { StudentDashboard } from "./pages/StudentDashboard";
 import { TeacherDashboard } from "./pages/TeacherDashboard";
 import { Attendence } from "./pages/Attendence";
+import { useState } from "react";
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
 
@@ -19,7 +20,6 @@ const App = () => {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/student/dashboard" element={<StudentDashboard />} />
           <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
-          <Route path="/teacher/mark-Attendence" element={<Attendence />} />
         </Routes>
       </BrowserRouter>
     </>

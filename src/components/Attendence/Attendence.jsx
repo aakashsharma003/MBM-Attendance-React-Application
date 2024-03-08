@@ -12,8 +12,8 @@ import "./Attendence.css";
 
 const Attendence = () => {
   return (
-    <div className="attendence-container">
-      <div className="attendence">
+    <div className="t-attendence-container">
+      <div className="t-attendence">
         <Swiper
           effect={"cards"}
           grabCursor={true}

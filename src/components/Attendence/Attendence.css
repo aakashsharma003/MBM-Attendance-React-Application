@@ -1,4 +1,4 @@
-.attendence-container {
+.t-attendence-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -7,17 +7,17 @@
   padding: 11% 10%;
   overflow: hidden;
 }
-.attendence {
+.t-attendence {
   width: 100%;
   height: 97%;
 }
-.attendence-container {
+.t-attendence-container {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.attendence-container {
+.t-attendence-container {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -25,14 +25,14 @@
   padding: 0;
 }
 
-.attendence-container {
+.t-attendence-container {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
 }
-.attendence-container {
+.t-attendence-container {
   position: relative;
   height: 100%;
 }

@@ -1,7 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./StudentUser.css";
 const StudentUser = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="lower-box">
@@ -24,9 +25,14 @@ const StudentUser = () => {
           </div>
         </div>
 
-        <NavLink to="/student/dashboard" className="login-btn btn">
+        <div
+          onClick={() => {
+            navigate("/student/dashboard");
+          }}
+          className="login-btn btn"
+        >
           Login
-        </NavLink>
+        </div>
       </div>
     </>
   );
